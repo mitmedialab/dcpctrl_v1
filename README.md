@@ -25,6 +25,8 @@ slightly challenging to acquire). Rather, it is intended as a snapshot
 of the DCP project's work as of August 2016, and as a reference for
 others working in this area.
 
+The DCPControl_V1 repository is licensed under the MIT License.
+
 ## Structure:
 ```
 mdcp/ 
