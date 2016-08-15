@@ -26,14 +26,14 @@ of the DCP project's work as of August 2016, and as a reference for
 others working in this area.
 
 ## Structure:
-'''
+```
 mdcp/ 
   apps/ -- very high-level behaviours to run truck/arm/both
   data/ -- stores data generated during runs/simulations
   lib/ -- External dependencies (e.g. rvctools) rvctools/
   robots/ -- robot-specific behaviours
   util/ -- utility functions
-'''
+```
   
 ## Basic Usage:
 In very rough terms, the procedure used to operate the DCP using this library is:
