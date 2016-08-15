@@ -1,4 +1,4 @@
-** The MIT License (MIT) **
+**The MIT License (MIT)**
 
 Copyright (c) 2016 Mediated Matter Group, MIT Media Lab, Massachusetts Institute of Technology
 
