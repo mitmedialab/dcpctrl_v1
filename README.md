@@ -8,10 +8,14 @@ Mediated Matter Group at the MIT Media Lab. This particular repository
 captures the state of the project as of August 2016.
 
 The DCPControl_V1 repository provides the following functionality: 
-- Low-level communications with the Altec AT40GW electrohydraulic lift vehicle, via a LabJack T7 interface. 
-- Low-level communications with the KUKA KR10 R1100 sixx WP robot arm, via a variety of interfaces. 
-- File import, processing and trajectory generation for the DCP system (comprised of the AT40GW and KUKA arms). 
-- Real-time control for the DCP system. - Run data processing & visualization for the DCP system.
+- Low-level communications with the Altec AT40GW electrohydraulic lift vehicle, via a
+LabJack T7 interface. 
+- Low-level communications with the KUKA KR10 R1100 sixx WP robot arm, via a variety of
+interfaces. 
+- File import, processing and trajectory generation for the DCP system (comprised of the
+AT40GW and KUKA arms). 
+- Real-time control for the DCP system. - Run data processing & visualization for the DCP
+system.
 
 The DCPControl_V1 repository enables the DCP system to be interacted
 with like a conventional robotic arm, albeit in a limited fashion. The
@@ -26,6 +30,10 @@ of the DCP project's work as of August 2016, and as a reference for
 others working in this area.
 
 The DCPControl_V1 repository is licensed under the MIT License.
+
+NOTE: To comply with the terms of the MIT License & MIT IP policies, this repository has 
+had a number of elements of the DCPControl_V1 codebase removed. The other components
+required for operation are available from the authors.
 
 ## Structure:
 ```
@@ -43,3 +51,6 @@ In very rough terms, the procedure used to operate the DCP using this library is
 - Generate waypoints for run from some data. A good example of this is img2toolpath, which converts a simple image to a series of waypoints.
 - Generate trajectory from waypoints. For example, use smoothcartsegtraj.m.
 - Command operation. The most thoroughly developed controller currently available is ffpdcontroller.m. It can be run with simflag = 1 and vizflag = 1 to simulate operation of the DCP.
+
+## Contact:
+Please contact Julian Leland (jleland(at)mit(dot)edu.
